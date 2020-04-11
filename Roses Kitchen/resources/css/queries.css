@@ -1,0 +1,202 @@
+/*---------------------------------------------*/
+                 /* Basic */
+/*---------------------------------------------*/
+@media only screen and (max-width: 1025px){
+    html,body{
+    overflow-x: hidden;
+    }
+}
+
+/*---------------------------------------------*/
+                 /* Header */
+/*---------------------------------------------*/
+/*Big tablet to 1379px (widths smaller then 1380px row)*/
+@media only screen and (max-width:1480px){
+    .main-nav{
+        margin-left: 45%;
+    }
+    
+}
+
+@media only screen and (max-width: 1379px){
+    .main-nav{
+        margin-left: 28%;
+    }
+    
+}
+
+/* 1379px to 1200px (widths smaller then 1280px row)*/
+@media only screen and (max-width: 1279px){
+    .hero-text-box{
+        font-size:70%;
+        
+    }
+
+    blockquote{
+        width:100%;
+        overflow-x: hidden;
+    }
+    
+}
+@media only screen and (max-width: 788px){ 
+    .hero-text-box{
+        font-size:60%;
+        
+    }
+    .main-nav{
+        display: none;
+        
+    }
+
+/*---------------------------------------------*/
+                 /* Mobile-Nav */
+/*---------------------------------------------*/
+    .mobile-nav-icon{
+        display: inline-block;
+    }
+    .main-nav{
+        float:left;
+        margin-top:25px;
+        margin-left:20px;
+    }
+    .main-nav li{
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border:0;
+        padding: 10px 0;
+    }
+    .sticky .main-nav{ margin-top:10px;}
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{
+    padding:10px 0;
+    }
+    .sticky .mobile-nav-icon{
+        margin-top:10px }
+    .sticky .hamburger-button{
+        color:#555;
+    }
+    
+    
+
+}
+
+@media only screen and (max-width: 999px){
+   .hero-text-box{
+        width:80%;
+        
+    }
+}
+
+
+/*---------------------------------------------*/
+                 /* Menu */
+/*---------------------------------------------*/
+@media only screen and (max-width: 1469px){
+    .section-menu div ul li{
+        font-size: 80%;
+    }
+}
+@media only screen and (max-width: 1199px){
+    .section-menu div ul li{
+        font-size: 60%;
+    }
+}
+@media only screen and (max-width: 944px){
+    .section-menu div ul li{
+        font-size: 60%;
+    }
+}
+@media only screen and (max-width: 779px){
+         .menu-box{
+        display: inline-block;
+    }
+}
+ @media only screen and (max-width: 600px){
+        .section-menu div.menu-box{
+            width: 100%;
+            margin-left: 0;
+        }
+}
+
+/*---------------------------------------------*/
+                 /* Location */
+/*---------------------------------------------*/
+@media only screen and (min-width: 1200px){
+         .section-location div img{
+         height:300px;
+         }
+     }
+@media only screen and (min-width: 1200px){
+    .section-location div p:last-child{
+        margin-left: 5px;
+    }
+     }
+ @media only screen and (max-width: 1200px){
+     .section-location p {
+         font-size: 10px;
+     }
+}
+ @media only screen and (max-width: 769px){
+     .section-location p {
+         font-size: 10px;
+         margin-right: 10px;
+     }
+}
+     .section-location img{
+         height:175px;
+         }
+@media only screen and (max-width: 700px){
+         .section-location img{
+         height:150px;
+         }
+     }
+@media only screen and (max-width: 610px){
+.section-location img{
+         height:125px;
+         }
+     }
+@media only screen and (max-width: 480px){
+.section-location img{
+         margin-left:25%;
+         }
+    .section-location div h4, p{
+        margin-left: 25%;
+    }
+    .section-location div p:last-child{
+        margin-bottom: 15px;
+    }
+     }
+/*---------------------------------------------*/
+                 /* about-me */
+/*---------------------------------------------*/
+@media only screen and (max-width: 850px){
+    blockquote,cite{
+    font-size:15px;
+    }
+@media only screen and (max-width: 480px){
+    blockquote,cite{
+    font-size:15px;
+    margin-left: 60px;
+        width:370px;
+    }
+    @media only screen and (max-width: 440px){
+    blockquote,cite{
+        width:300px;
+        
+    }
+   @media only screen and (max-width: 375px){
+    blockquote,cite{
+        width:250px;
+
+        
+    }
+@media only screen and (max-width: 375px){
+    .section-aboutme h2{
+        font-size:30px;
+        
+    }
+}
+     
